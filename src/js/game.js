@@ -1,12 +1,11 @@
-import './domain'
+import Character from './domain'
 
-class Game {
+export default class Game {
     start() {
       console.log('game started');
     }
   }
 
-export default Game
 
   export class GameSavingData {
   }
